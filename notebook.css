@@ -1,0 +1,205 @@
+.main{
+    background: white;
+    width: 550px;
+    height: 800px;
+    position: relative;
+    left:350px;
+    bottom: 9px;
+    
+}
+body{
+    background-image:url(anchor-lee-kO1G3neRA2o-unsplash.jpg);
+}
+
+#animallogo{
+    font-size: 68px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+    color: rgb(33, 174, 33);
+}
+#evernote1{
+    font-size: 50px;
+    position: relative;
+    left: 190px;
+    bottom: 21px;
+}
+#smallnote{
+    font-size: 18px;
+    position: relative;
+    left: 170px;
+    bottom: 40px;
+}
+.m1 {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    padding: 7px;
+    font-size: 20px;
+    
+  }
+  .m2{
+    padding: 7px;
+    font-size: 20px;
+  }
+  #button1{
+    border: 1px solid grey;
+    border-radius: 6px 6px 6px 6px ;
+    position: relative;
+    left: 150px;
+    top: -10px;
+    width: 290px;
+    height: 40px;
+    background: white;
+    
+    
+  }
+  #button1:hover{
+background:rgb(221, 212, 212);
+  }
+  #button2:hover{
+    background:rgb(221, 212, 212);
+    
+  }
+  #button3:hover{
+    background:green;
+    
+  }
+  
+  #button2{
+    border: 1px solid grey;
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    left: 150px;
+    top: -4px;
+    width: 290px;
+    height: 40px;
+    background: white;
+    
+  }
+  h1{
+    position: relative;
+    bottom: -3px;
+    font-size:18px;
+    left: 280px;
+    opacity: 0.5;
+
+  }
+  h1::before{
+    content:"" ;
+    height: 1px;
+    width: 123px;
+    background: black;
+    position: absolute;
+    bottom:10px;
+    right:560px;
+    opacity: 0.5;
+
+  }
+  h1::after{
+    content:"" ;
+    height: 1px;
+    width: 132px;
+    background: black;
+    position: absolute;
+    bottom:10px;
+    right:388px;
+    opacity: 0.5;
+
+  }
+  #name{
+    border: 1px solid grey;
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    bottom: 415px;
+    left: 495px;
+    width: 290px;
+    height: 46px;
+    
+  }
+  #name::placeholder{
+    transform: translate(15px);
+
+  }
+  #button3{
+    color: white;
+    background: rgb(18, 181, 18);
+    border: 1px solid grey;
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    bottom: 406px;
+    left: 495px;
+    width: 294px;
+    height: 46px;
+  }
+  #check{
+    color:grey;
+    position: relative;
+    bottom: 340px;
+    left:260px;
+
+  }
+  #remember{
+    color: grey;
+    font-size:14px;
+    position: relative;
+    bottom: 391px;
+    left:584px;
+  }
+  #dont{
+    color: grey;
+    font-size:15px;
+    position: relative;
+    bottom: 350px;
+    left:574px;
+  }
+  #thelink{
+    text-decoration: none;
+    color:  rgb(18, 181, 18);
+    font-size:19px;
+    position: relative;
+    bottom: 355px;
+    left:584px;
+  }
+  #terms{
+    color: grey;
+    font-size:14px;
+    position: relative;
+    bottom: 210px;
+    left:363px;
+  }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media (max-width: 844px){
+    .main{
+      background: white;
+      height: auto;
+      width:auto;
+      position: relative;
+      left:350px;
+      display: block;
+      margin:0;
+      
+  }
+    body{
+
+      background-image:none;
+      height: auto;
+      width:auto;
+
+  }
+  }
