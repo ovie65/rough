@@ -1,0 +1,332 @@
+.firstmain{
+    background-color:white;
+    position: relative;
+    right: 10px;
+    bottom: 29px;
+    height: 649px;
+    width: 620px;
+    
+}
+#icon{
+    width: 50px;
+    height: 50px;
+
+}
+#laun2ch{
+    font-size: 25px;
+    transform: translate(50%);
+    position: absolute;
+    top: 6%;
+    left:-24%;
+
+}
+
+.m1{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    color: rgb(76, 185, 76);
+    transform: translate(50%);
+    position: absolute;
+    bottom:67%;
+    left:55px;
+}
+.m2{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    color: rgb(76, 185, 76);
+    transform: translate(50%);
+    position: absolute;
+    top: 41%;
+    left:9%;
+}
+.m3{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    color: rgb(76, 185, 76);
+    transform: translate(50%);
+    position: absolute;
+    top:150%;
+    left:-54px;
+    
+}
+mark{
+    background: rgb(18, 18, 18);
+    color:white;
+    border-radius: 3px 3px 3px 3px;
+    padding:3px;
+}
+#note1{
+    transform: translate(50%);
+    position: absolute;
+    top:25%;
+    left:-23%;
+}
+#note2{
+    transform: translate(50%);
+    position: absolute;
+    bottom:47%;
+    left:-110px;
+
+}
+#note3{
+    transform: translate(50%);
+    position: absolute;
+    top:52%;
+    left:-115px;
+
+}
+#highgrowth{
+    color: rgba(89, 86, 86, 0.719);
+    transform: translate(50%);
+    position: absolute;
+    bottom: 21%;
+    left:-8%;
+}
+.j1{
+
+    opacity: 0.5;
+    transform: translate(50%);
+    position: absolute;
+    bottom:6%;
+    left:14%;
+}
+.j2{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom:6%;
+    left:25%;
+    
+}
+.j3{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom:6%;
+    left:46%;
+
+}
+.j4{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom:6%;
+    left:69%;
+    
+}
+.j5{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom: 16%;
+    left:59%;
+    
+}
+.j6{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom: 16%;
+    left:36%;
+    
+}
+.j7{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom: 16%;
+    left:14%;
+ 
+
+}
+img{
+    width: 100%;
+}
+#backimg{
+    width: 629px;
+    height: 652px;
+    transform: translate(50%);
+    position: absolute;
+    top: -1%;
+    left:25%;
+    
+}
+#free{
+    transform: translate(50%);
+    position: absolute;
+    top:89px;
+    left:38%;
+}
+#getstarted{
+    font-size: 23px;
+    transform: translate(50%);
+    position: absolute;
+    left:50%;
+    top: 42px;
+    
+    
+
+
+}
+
+
+#lastnote{
+    font-size: 13px;
+    transform: translate(50%);
+    position: absolute;
+    top:510px;
+    left:592px;
+}
+#last1{
+    font-size: 13px;
+    transform: translate(50%);
+    position: absolute;
+    top:560px;
+    left:512px;
+    
+}
+
+
+
+#name1{
+    transform: translate(50%);
+    position: absolute;
+    top:198px;
+    left:40%;
+}
+#username{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+#username:hover{
+    background: rgb(185, 169, 169);
+}
+#email:hover{
+    background: rgb(185, 169, 169);
+}
+#password:hover{
+    background: rgb(185, 169, 169);
+}
+#confirmPassword:hover{
+    background: rgb(185, 169, 169);
+}
+#nametag{
+    transform: translate(50%);
+    position: absolute;
+    left:18px;
+    bottom:17px;
+}
+#name2{
+    transform: translate(50%);
+    position: absolute;
+    top:250px;
+    left:505px;
+}
+#email{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    
+}
+#companytag{
+    transform: translate(50%);
+    position: absolute;
+    left:5px;
+    bottom:12px;
+}
+#name3{
+    transform: translate(50%);
+    position: absolute;
+    top:302px;
+    left:505px;
+}
+#password{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    
+}
+#emailtag{
+    transform: translate(50%);
+    position: absolute;
+    left:18px;
+    bottom:12px;
+}
+
+#name4{
+    transform: translate(50%);
+    position: absolute;
+    top:354px;
+    left:505px;
+}
+#confirmPassword{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    
+    
+
+}
+#passwordtag{
+    transform: translate(50%);
+    position: absolute;
+    left:5px;
+    bottom:12px;
+}
+#goldbu{
+    height: 50px;
+    width: 430px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    background: gold;
+    transform: translate(50%);
+    position: absolute;
+    top:440px;
+    left:509px;
+}
+
+#usernameError{
+    color: red;
+    font-size: 10px;
+}
+#emailError{
+    color: red;
+    font-size: 10px;
+
+}
+#passwordError{
+    color: red;
+    font-size: 10px;
+}
+#confirmPasswordError{
+    color: red;
+    font-size: 10px;
+}
+
+
+

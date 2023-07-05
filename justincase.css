@@ -1,0 +1,265 @@
+.firstmain{
+    background-color:white;
+    position: relative;
+    right: 10px;
+    bottom: 29px;
+    height: 649px;
+    width: 620px;
+    
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+#laun2ch{
+    font-size: 27px;
+    position: relative;
+    top:50px;
+    left: 60px;
+}
+
+.m1{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    position: relative;
+    top: 75px;
+    left:52px;
+    color: rgb(76, 185, 76);
+}
+.m2{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    position: relative;
+    top: 55px;
+    left:52px;
+    color: rgb(76, 185, 76);
+}
+.m3{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    position: relative;
+    top: 57px;
+    left:-239px;
+    color: rgb(76, 185, 76);
+}
+mark{
+    background: rgb(18, 18, 18);
+    color:white;
+    border-radius: 3px 3px 3px 3px;
+    padding:3px;
+}
+#note1{
+    position: relative;
+    left:90px;
+    bottom:-28px;
+}
+#note2{
+    position: relative;
+    left:90px;
+    bottom:-6px;
+}
+#note3{
+    position: relative;
+    left:90px;
+    bottom:-20px;
+}
+#highgrowth{
+    position: relative;
+    left: 125px;
+    top: 43px;
+    color: rgba(89, 86, 86, 0.719);
+}
+.j1{
+    position: relative;
+    top: 54px;
+    left: 90px;
+    opacity: 0.5;
+}
+.j2{
+    opacity:0.5;
+    color: #27441d;
+    position: relative;
+    top: 54px;
+    left:120px;
+}
+.j3{
+    opacity:0.5;
+    color: #27441d;
+    position: relative;
+    top: 54px;
+    left:145px;
+}
+.j4{
+    opacity:0.5;
+    color: #27441d;
+    position: relative;
+    top: 54px;
+    left:165px;
+}
+.j5{
+    opacity:0.5;
+    color: #27441d;
+    position: relative;
+    top: 114px;
+    right:319px;
+}
+.j6{
+    opacity:0.5;
+    color: #27441d;
+    position: relative;
+    top: 97px;
+    left:255px; 
+}
+.j7{
+    opacity:0.5;
+    color: #27441d;
+    position: relative;
+    top: 97px;
+    left:290px; 
+
+}
+img{
+    width: 100%;
+}
+#backimg{
+    width: 645px;
+    height: 637px;
+    position: relative;
+    left: 610px;
+    bottom: 675px;
+}
+#free{
+    position: relative;
+    right: -700px;
+    bottom: 1225px;
+}
+#getstarted{
+    font-size: 25px;
+    position: relative;
+    right: -700px;
+    bottom: 1330px;
+
+
+}
+#name{
+    height: 50px;
+    width: 450px;
+    position: relative;
+    right: -710px;
+    bottom: 1244px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    
+}
+#name:hover{
+    background: rgb(185, 169, 169);
+    
+}
+#nam1:hover{
+    background:rgb(185, 169, 169);
+    
+}
+#nam2:hover{
+    background: rgb(185, 169, 169);
+    
+}
+#nam3:hover{
+    background: rgb(185, 169, 169);
+    
+}
+#nam1{
+    height: 50px;
+    width: 450px;
+    position: relative;
+    right: -252px;
+    bottom: 1192px;
+    border: none;
+    outline: none;
+    
+}
+#nam2{
+    height: 50px;
+    width: 450px;
+    position: relative;
+    left: 710px;
+    bottom: 1192px;
+    border: none;
+    outline: none;
+    
+}
+#nam3{
+    height: 50px;
+    width: 450px;
+    position: relative;
+    left: 252px;
+    bottom: 1140px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+#name::placeholder{
+    position: relative;
+    left:19px;
+    color: black;
+}
+#nam1::placeholder{
+    position: relative;
+    left: 19px;
+    color: black;
+    
+}
+#nam2::placeholder{
+    position: relative;
+    left: 19px;
+    color: black;
+    
+    
+}
+#nam3::placeholder{
+    position: relative;
+    left: 19px;
+    color: black;
+    
+}
+#goldbu{
+    height: 50px;
+    width: 450px;
+    position: relative;
+    bottom: 1110px;
+    left: 713px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    background: gold;
+}
+#goldbu:hover{
+    background: goldenrod;
+}
+#lastnote{
+    font-size: 13px;
+    position: relative;
+    bottom: 1102px;
+    left: 721px;
+}
+#last1{
+    font-size: 13px;
+    position: relative;
+    bottom: 1090px;
+    left: 721px;
+}
+
+

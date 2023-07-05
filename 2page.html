@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2ndpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="2page2.css">
+</head>
+<body>
+    <div class="firstmain">
+    <p id="laun2ch">Launch, grow, and scale your app without </br> stopping to work on infrastructure </p>
+    <i class="fa fa-check-circle m1" aria-hidden="true"></i>
+    <p id="note1">Launch</br>Give aptible your code via <mark>git hub</mark> or point at a Docker registry and be up and  </br>running without any work or Config</p>
+    <i class="fa fa-check-circle m2" aria-hidden="true"></i>
+    <p id="note2">Grow</br>Aptible handles all infrastructure operations: zero-downtime deploys,</br> instant rollbacks, metrics and logs that are both easy to find and use,</br> managed databases, and more.
+        <i class="fa fa-check-circle m3" aria-hidden="true"></i>
+    <p id="note3">Scale</br> requirements such as performance, security, compliance</br> inheritance, and reliability are baked into the Aptible platform from day </br> one.
+        <p id="highgrowth"><b>HIGH GROWTH COMPANIES THAT HAVE SCALED</br>
+            WITH NO INFRASTRUCTURE USING APTIBLE</b></p>
+            <i class="fa-brands fa-xbox j1" style="color: #27441d;">X-box</i>
+            <i class="fa-brands fa-telegram j2">telegram</i>
+            <i class="fa-brands fa-whatsapp j3">whatsapp</i>
+            <i class="fa-brands fa-facebook j4">facebook</i>
+            <i class="fa-brands fa-kickstarter j5">Kickstarter</i>
+            <i class="fa-brands fa-pinterest j6">pinterest</i>
+            <i class="fa-brands fa-youtube j7">Youtube</i>
+    </div>
+    <div class="secoundmain">
+        <img id="backimg" src="images.jfif">
+        <p id="free">
+            Aptible’s PaaS automates the work of provisioning, managing, and scaling </br>infrastructure, so you can focus on what matters: your product.
+        </p>
+        <p id="getstarted">Get started for free</p>
+      
+
+        <form id="registrationForm">
+            <div id="name1">
+                <label for="username" id="nametag">Name</label>
+                <input id="username">
+                <span id="usernameError" class="error"></span>
+            </div>
+            <div id="name2">
+                <label for="email" id="companytag">Company</label>
+                <input id="email" onchange="validateemail()">
+                <span id="emailError" class="error"></span>
+            </div>
+            <div id="name3">
+                <label for="password" id="emailtag" >Email</label>
+                <input id="password">
+                <span id="passwordError" class="error"></span>
+            </div>
+            <div id="name4">
+                <label for="confirmPassword" id="passwordtag"> Password</label>
+                <input id="confirmPassword">
+                <span id="confirmPasswordError" class="error"></span>
+            </div>
+            <button type="submit" id="goldbu">Create account</button>
+        </form>
+        
+        <script>
+
+            const form = document.getElementById("registrationForm");
+            const username = document.getElementById("username");
+            const email = document.getElementById("email");
+            const password = document.getElementById("password");
+            const confirmPassword = document.getElementById("confirmPassword");
+            const usernameError = document.getElementById("usernameError");
+            const emailError = document.getElementById("emailError");
+            const passwordError = document.getElementById("passwordError");
+            const confirmPasswordError = document.getElementById("confirmPasswordError");
+        
+            const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            const passformat = /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#\$%\^&])[a-zA-Z0-9!@#\$%\^&]{5,15}$/;
+        
+            function validateemail(){
+                if (!email.value) {
+                            emailError.textContent = "you must put the email";
+                            
+                        } else if (!email.value.match(emailformat)) {
+                            emailError.textContent = "Email is not in the correct format";
+                            
+                        } else {
+                            emailError.textContent = " valid email";
+                            emailError.style.color = "blue";
+                        }
+            }
+            
+            form.addEventListener("submit", function(x) {
+                
+                x.preventDefault();
+        
+                let isValid = true;
+        
+                if (!username.value) {
+                    usernameError.textContent = "**name is required";
+                    isValid = false;
+                } else {
+                    usernameError.textContent = "**Please fill the remaining form";
+                    usernameError.style.color = "blue"
+                }
+        
+                if (!email.value) {
+                    emailError.textContent = "**You must put a company name";
+                    isValid = false;
+                } else if (!email.value.match(emailformat)) {
+                    emailError.textContent = "Email is not in the correct format";
+                    isValid = false;
+                } else {
+                    emailError.textContent = " valid email";
+                    emailError.style.color = "blue";
+                }
+        
+                if (!password.value) {
+                    passwordError.textContent = "**please put a valid email";
+                    isValid = false;
+                } else if (!password.value.match(passformat)) {
+                    passwordError.textContent = "**Email must end with @gmail.com";
+                    isValid = false;
+                } else {
+                    passwordError.textContent = " **Email is okay";
+                    passwordError.style.color = "blue";
+                }
+        
+                if (password.value !== confirmPassword.value) {
+                    confirmPasswordError.textContent = "**Please put a strong password";
+                    isValid = false;
+                } else {
+                    confirmPasswordError.textContent = "**Don't forget your password";
+                }
+        
+                if (isValid) {
+                    form.submit();
+                }
+            });
+        </script>
+
+        <p id="lastnote">If you already have an account, you can log in here.</p>
+        <p id="last1">By submitting this form, I confirm that I have read and agree to Aptible's Terms of </br>Service and Privacy Policy.</p>
+
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
