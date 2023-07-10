@@ -34,14 +34,67 @@
         </div>
 
        </div>
-       <div class="email">
-        <input id="name" type="email" name="email" placeholder="Email address or username">
+       <form id="registrationForm">
+        <div id="name2">
+            <input id="email" placeholder="Email address or username" onchange="validateemail() ">
+            <span id="emailError" class="error"></span>
         </div>
-        <button id="button3">Continue</button>
+        <script>
+         
+
+            const form = document.getElementById("registrationForm");
+            const email = document.getElementById("email");
+            
+            
+            const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            
+            function validateemail(){
+    if (!email.value) {
+                emailError.textContent = "you must put the email";
+                
+            } else if (!email.value.match(emailformat)) {
+                emailError.textContent = "Email is not in the correct format";
+                
+            } else {
+                emailError.textContent = " valid email";
+                emailError.style.color = "red";
+            }
+}
+form.addEventListener("submit", function(x) {
+    
+    x.preventDefault();
+
+    let isValid = true;
+
+
+    if (!email.value) {
+        emailError.textContent = "Email address is requiried";
+        isValid = false;
+    } else if (!email.value.match(emailformat)) {
+        emailError.textContent = "Email is not in the correct format";
+        isValid = false;
+    } else {
+        emailError.textContent = " valid email";
+        emailError.style.color = "blue";
+    }
+
+   
+
+});
+</script>
+
+
+
+
+        <button type="submit" id="button3"><h3>Continue</h3></button>
+    </form>
+        
         <input id="check" type="checkbox"><h4 id="remember">Remember me for 30 days</h4>
         <p id="dont">Don't have an account?</p>
         <a  id="thelink" href="#">Create account</a>
-        <a href="overflow.html">there</a>
+        <a href="overflow.html">1st</a>
+        <a href="2page.html">2nd</a>
+        <a href="overflow.html">3rd</a>
      </div>
      <p id="terms">
          Terms of service   |  Privacy policy  |  Copyright 2023 Evernote Coperation, All rights reserved.

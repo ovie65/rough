@@ -119,21 +119,25 @@ background:rgb(221, 212, 212);
     opacity: 0.5;
 
   }
-  .email{
-    margin: none;
-    position: relative;
-     transform: translate(50%);
+ 
+    
+  #email{
+    border: 1px solid grey;
+    border-radius: 6px 6px 6px 6px;
+    width: 290px;
+    height:40px;
+      transform: translate(50%);
     position: absolute;
     top: 58%;
     left: 331px;
     
   }
-  #name{
-    border: 1px solid grey;
-    border-radius: 6px 6px 6px 6px;
-    width: 290px;
-    height: 46px;
-    
+  #emailError{
+    font-size: 10px;
+    position: absolute;
+    top: 65%;
+    left:480px;
+    color: red;
   }
   #name::placeholder{
     transform: translate(15px);
