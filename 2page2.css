@@ -1,3 +1,8 @@
+ 
+ body{
+    overflow: hidden;
+ }
+
 .firstmain{
     background-color:white;
     position: relative;
@@ -12,11 +17,14 @@
     height: 50px;
 
 }
+.dropdown{
+    height: 200px;
+}
 #laun2ch{
     font-size: 25px;
     transform: translate(50%);
     position: absolute;
-    top: 6%;
+    top: -20%;
     left:-24%;
 
 }
@@ -29,8 +37,8 @@
     color: rgb(76, 185, 76);
     transform: translate(50%);
     position: absolute;
-    bottom:67%;
-    left:55px;
+    bottom:98%;
+    left:67px;
 }
 .m2{
     padding: 7px;
@@ -40,8 +48,8 @@
     color: rgb(76, 185, 76);
     transform: translate(50%);
     position: absolute;
-    top: 41%;
-    left:9%;
+    top: 13%;
+    left:11%;
 }
 .m3{
     padding: 7px;
@@ -52,7 +60,7 @@
     transform: translate(50%);
     position: absolute;
     top:150%;
-    left:-54px;
+    left:-65px;
     
 }
 mark{
@@ -62,38 +70,42 @@ mark{
     padding:3px;
 }
 #note1{
+    font-size: 14px;
     transform: translate(50%);
     position: absolute;
-    top:25%;
-    left:-23%;
+    top:-3%;
+    left:-18%;
 }
 #note2{
+    font-size: 14px;
     transform: translate(50%);
     position: absolute;
-    bottom:47%;
-    left:-110px;
+    bottom:73%;
+    left:-81px;
 
 }
 #note3{
+    font-size: 14px;
     transform: translate(50%);
     position: absolute;
-    top:52%;
-    left:-115px;
+    top:30%;
+    left:-88px;
 
 }
 #highgrowth{
+    font-size: 14px;
     color: rgba(89, 86, 86, 0.719);
     transform: translate(50%);
     position: absolute;
-    bottom: 21%;
-    left:-8%;
+    bottom: 43%;
+    left:2%;
 }
 .j1{
 
     opacity: 0.5;
     transform: translate(50%);
     position: absolute;
-    bottom:6%;
+    bottom:31%;
     left:14%;
 }
 .j2{
@@ -101,7 +113,7 @@ mark{
     color: #27441d;
     transform: translate(50%);
     position: absolute;
-    bottom:6%;
+    bottom:31%;
     left:25%;
     
 }
@@ -110,7 +122,7 @@ mark{
     color: #27441d;
     transform: translate(50%);
     position: absolute;
-    bottom:6%;
+    bottom:31%;
     left:46%;
 
 }
@@ -119,7 +131,7 @@ mark{
     color: #27441d;
     transform: translate(50%);
     position: absolute;
-    bottom:6%;
+    bottom:31%;
     left:69%;
     
 }
@@ -128,7 +140,7 @@ mark{
     color: #27441d;
     transform: translate(50%);
     position: absolute;
-    bottom: 16%;
+    bottom: 39%;
     left:59%;
     
 }
@@ -137,7 +149,7 @@ mark{
     color: #27441d;
     transform: translate(50%);
     position: absolute;
-    bottom: 16%;
+    bottom: 39%;
     left:36%;
     
 }
@@ -146,7 +158,7 @@ mark{
     color: #27441d;
     transform: translate(50%);
     position: absolute;
-    bottom: 16%;
+    bottom: 39%;
     left:14%;
  
 
@@ -203,8 +215,8 @@ img{
 #name1{
     transform: translate(50%);
     position: absolute;
-    top:198px;
-    left:40%;
+    top:206px;
+    left:505px;
 }
 #username{
     height: 50px;
@@ -236,7 +248,7 @@ img{
 #name2{
     transform: translate(50%);
     position: absolute;
-    top:250px;
+    top:256px;
     left:505px;
 }
 #email{
@@ -256,7 +268,7 @@ img{
 #name3{
     transform: translate(50%);
     position: absolute;
-    top:302px;
+    top:306px;
     left:505px;
 }
 #password{
@@ -277,7 +289,7 @@ img{
 #name4{
     transform: translate(50%);
     position: absolute;
-    top:354px;
+    top:356px;
     left:505px;
 }
 #confirmPassword{
@@ -313,19 +325,28 @@ img{
 #usernameError{
     color: red;
     font-size: 10px;
+    position: absolute;
+    left: 300px;
 }
 #emailError{
     color: red;
     font-size: 10px;
+    position: absolute;
+    left: 270px;
+    
 
 }
 #passwordError{
     color: red;
     font-size: 10px;
+    position: absolute;
+    left: 300px;
 }
 #confirmPasswordError{
     color: red;
     font-size: 10px;
+    position: absolute;
+    left: 300px;
 }
 
 

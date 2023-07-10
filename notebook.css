@@ -10,25 +10,32 @@
 body{
     background-image:url(anchor-lee-kO1G3neRA2o-unsplash.jpg);
 }
+.dropdown{
+  position: absolute;
+  top: 5%;
+}
 
 #animallogo{
     font-size: 68px;
     color: rgb(33, 174, 33);
     position: relative;
-    top: 28px;
+    top: 5px;
+    left: 2px;
     
     
 }
 #evernote1{
     font-size: 50px;
-    position: relative;
-    bottom: 25px;
+    position: absolute;
+    bottom: 510px;
+    left:527px;
     
 }
 #smallnote{
     font-size: 18px;
-    position: relative;
-    bottom:50px;
+    position: absolute;
+    bottom:460px;
+    left:494px;
     
 }
 .m1 {
@@ -54,7 +61,7 @@ body{
     transform: translate(50%);
     position: absolute;
     top: 36%;
-    left:27%;
+    left:26%;
     
     
     
@@ -81,7 +88,7 @@ background:rgb(221, 212, 212);
     transform: translate(50%);
     position: absolute;
     top: 43%;
-    left:27%;
+    left:26%;
     
     
   }
@@ -91,8 +98,8 @@ background:rgb(221, 212, 212);
     opacity: 0.5;
     transform: translate(50%);
     position: absolute;
-    top: 50%;
-    left:615px;
+    top: 52%;
+    left:600px;
 
   }
 
@@ -102,7 +109,7 @@ background:rgb(221, 212, 212);
     width: 123px;
     background: black;
     position: absolute;
-    bottom:10px;
+    bottom:11px;
     right:34px;
     opacity: 0.5;
 
@@ -129,19 +136,22 @@ background:rgb(221, 212, 212);
       transform: translate(50%);
     position: absolute;
     top: 58%;
-    left: 331px;
+    left: 328px;
     
   }
   #emailError{
     font-size: 10px;
     position: absolute;
-    top: 65%;
+    top: 64%;
     left:480px;
     color: red;
   }
   #name::placeholder{
     transform: translate(15px);
 
+  }
+  h3{
+    font-size: 16px;
   }
   #button3{
     color: white;
@@ -153,15 +163,15 @@ background:rgb(221, 212, 212);
     text-align: center;
      transform: translate(50%);
     position: absolute;
-    top: 67%;
-    left:332px;
+    top: 66%;
+    left:323px;
   }
   #check{
     color:grey;
      transform: translate(50%);
     position: absolute;
-    top: 80%;
-    left:526px;
+    top: 77%;
+    left:530px;
   
 
   }
@@ -171,7 +181,7 @@ background:rgb(221, 212, 212);
      transform: translate(50%);
     position: absolute;
     top: 77%;
-    left: 473px;
+    left: 469px;
     
   }
   #dont{
@@ -179,18 +189,18 @@ background:rgb(221, 212, 212);
     font-size:15px;
      transform: translate(50%);
     position: absolute;
-    top: 88%;
-    left: 494px;
+    top: 86%;
+    left: 490px;
     
   }
   #thelink{
     text-decoration: none;
     color:  rgb(18, 181, 18);
-    font-size:19px;
+    font-size:16px;
      transform: translate(50%);
     position: absolute;
-    top: 94%;
-    left: 518px;
+    top: 90%;
+    left:535px;
   
   }
   #terms{
