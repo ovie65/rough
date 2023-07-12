@@ -209,7 +209,7 @@ background:rgb(221, 212, 212);
      transform: translate(50%);
     position: absolute;
     top: 98%;
-    left: 120px;
+    left: 70px
     
   }   
 
@@ -226,22 +226,94 @@ background:rgb(221, 212, 212);
 
 
   
-  @media (max-width: 844px){
+  @media screen and (max-width: 768px){
     .main{
-      background: white;
-      height: auto;
-      width:auto;
-      position: relative;
-      left:350px;
-      display: block;
-      margin:0;
+      margin:0px auto;
       
   }
     body{
-
+overflow: hidden;
       background-image:none;
-      height: auto;
-      width:auto;
+
 
   }
+
+  #animallogo{
+    font-size: 68px;
+    color: rgb(33, 174, 33);
+    position: absolute;
+    top:8%;
+    left: 43%;
+  }
+  #button1{
+    position: absolute;
+    left:-7%;
+    top:230px;
+  }
+  #button2{
+    position: absolute;
+    left:-7%;
+    top:275px;
+  }
+  #evernote1{
+    font-size: 50px;
+    position: absolute;
+    left:31%;
+    top:106px;
+  
+}
+#smallnote{
+  font-size:17px;
+  position: absolute;
+  bottom:400px;
+  left:130px;
+  
+}
+
+#line{
+  position: absolute;
+  left:49%;
+  top:54%;
+}
+
+#name2{
+  position: absolute;
+  top: 62%;
+  left:-74%;
+  
+}
+#button3{
+  position: absolute;
+  top: 70%;
+  left:-8%;
+}
+
+#check{
+position: absolute;
+left: 31%;
+top: 83%;
+}
+#remember{
+  font-size: 15px;
+  position: absolute;
+  left:18%;
+  top:83%;
+
+}
+#dont{
+  position: absolute;
+  left: 20%;
+top: 91%;
+}
+#thelink{
+  position: absolute;
+  left: 29%;
+top: 95%;
+}
+#terms{
+  font-size:11px;
+  position: absolute;
+  left:-37%;
+  top: 99%;
+}
   }
